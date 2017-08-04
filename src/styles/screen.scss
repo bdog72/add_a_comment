@@ -11,3 +11,9 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
