@@ -4,9 +4,17 @@ import CommentList from './comment_list'
 class App extends Component {
   render () {
     return (
-      <div className='main'>
-        <CommentBox />
-        <CommentList />
+      <div>
+        <div className='d-flex'>
+          <div className='p-2'>
+            <CommentBox />
+          </div>
+        </div>
+        <div className='d-flex'>
+          <div className='p-2'>
+            <CommentList />
+          </div>
+        </div>
       </div>
     )
   }
